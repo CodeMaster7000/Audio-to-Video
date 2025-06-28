@@ -4,7 +4,7 @@
 
 A Python program to convert audio (mp3) to video (mp4) files using static images.
 
-## Prerequisites
+## Prerequisites
 
 - `mutagen` module (can be installed simply with `pip install mutagen`)
 - `pillow` module (can be installed simply with `pip install pillow`)
