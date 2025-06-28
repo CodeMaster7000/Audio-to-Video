@@ -5,7 +5,7 @@ from mutagen.mp3 import MP3
 from PIL import Image
 from pathlib import Path
 
-audio_path = os.path.join(os.getcwd(), "audio.mp3")
+audio_path = os.path.join(os.getcwd(), "audio_file.mp3") # Replace with your audio filename
 video_path = os.path.join(os.getcwd(), "videos")
 images_path = os.path.join(os.getcwd(), "images")
 audio = MP3(audio_path)
@@ -22,4 +22,4 @@ video = editor.VideoFileClip("images.gif")
 audio = editor.AudioFileClip(audio_path)
 final_video = video.set_audio(audio)
 os.chdir(video_path)
-final_video.write_videofile(fps=60, codec="libx264", filename="video.mp4")
+final_video.write_videofile(fps=60, codec="libx264", filename="video_file.mp4")
