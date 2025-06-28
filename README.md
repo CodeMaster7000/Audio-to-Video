@@ -1,3 +1,3 @@
 # Audio to Video
 
-A Python program to convert audio to video files using static images.
+A Python program to convert audio (mp3) to video (mp4) files using static images.
